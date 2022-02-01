@@ -1,0 +1,565 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+        --font_size_title: 28px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 32px;
+
+        height: 12px;
+        padding: 0;
+    }
+
+    .swiper-pagination-bullet
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 12px !important;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 40px;
+    }
+
+
+    .load_more .btn
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        width: 224px;
+        padding: 12px 24px;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item .head
+    {
+        padding: 24px 72px 24px 0;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        padding-bottom: 24px;
+    }
+
+
+
+    /*---------------
+        Fixed img
+    ---------------*/
+    .fixed_img
+    {
+        height: 360px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 16px 0;
+    }
+
+
+    header .logo
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    header .logo sup
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 28px;
+    }
+
+    header .menu .item > a
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-top: 68px;
+    }
+
+
+
+    aside .articles
+    {
+        display: flex;
+
+        margin-bottom: -40px;
+        margin-left: -40px;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    aside .articles > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+    aside .articles .article + .article
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+        padding-top: 40px;
+    }
+
+
+    .page_title
+    {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3,
+    .text_block * + h4
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 400px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .main_slider .slide .info
+    {
+        width: 228px;
+        padding-left: 0;
+    }
+
+
+    .main_slider .slide .logo
+    {
+        font-size: 32px;
+    }
+
+    .main_slider .slide .logo sup
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .main_slider .slide .title
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .main_slider .slide .btn
+    {
+        margin-top: 24px;
+        padding: 12px 44px;
+    }
+
+
+    .main_slider .slide .image
+    {
+        width: 280px;
+        margin-right: -4px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 68px 0;
+    }
+
+
+    .about_info .col_left,
+    .about_info .col_right
+    {
+        max-width: calc(50% - 80px);
+    }
+
+
+    .about_info .title
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        margin-bottom: 28px;
+    }
+
+    .about_info .title sup
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .about_info .pluses,
+    .about_info .pluses > * + *
+    {
+        margin-top: 20px;
+    }
+
+    .about_info .pluses > *
+    {
+        padding-left: 44px;
+    }
+
+    .about_info .pluses .icon
+    {
+        max-width: 32px;
+        max-height: 40px;
+    }
+
+
+
+    /*---------------
+        How apply
+    ---------------*/
+    .how_apply .ages .item
+    {
+        text-align: center;
+    }
+
+
+    .how_apply .ages .thumb
+    {
+        margin: 0 auto 16px;
+    }
+
+    .how_apply .ages .thumb + *
+    {
+        width: 100%;
+    }
+
+
+    .how_apply .steps > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .how_apply .step
+    {
+        display: flex;
+
+        min-height: 52px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        padding: 68px 0;
+    }
+
+    .why:before
+    {
+        display: none;
+    }
+
+
+    .why .info
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .why .info .title
+    {
+        font-size: 32px;
+    }
+
+    .why .info .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        margin-top: 24px;
+    }
+
+
+    .why .data
+    {
+        width: 100%;
+    }
+
+    .why .data .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .why .data .pluses > *
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-left: -24px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+    .articles .article .thumb .img
+    {
+        width: 192px;
+        height: 192px;
+    }
+
+    .articles .article .date
+    {
+        line-height: 21px;
+    }
+
+
+
+    /*---------------
+        Where buy
+    ---------------*/
+    .where_buy .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .where_buy .item:nth-child(4n+1):before
+    {
+        display: block;
+    }
+
+    .where_buy .item:nth-child(3n+1):before
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .date
+    {
+        line-height: 21px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq
+    {
+        --sidebar_width: 100%;
+    }
+
+
+    .faq .content
+    {
+        width: 100%;
+    }
+
+
+
+    .faq .add_question .data
+    {
+        padding: 40px 80px;
+    }
+
+
+    .faq .add_question .exp
+    {
+        padding: 0 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contrindications
+    {
+        font-size: 30px;
+
+        margin-bottom: 20px;
+    }
+
+
+    footer .info
+    {
+        padding: 32px 0;
+    }
+
+
+    footer .logo img
+    {
+        width: 200px;
+    }
+
+
+    footer .license
+    {
+        font-size: 13px;
+        line-height: 24px;
+
+        margin-left: 32px;
+        padding: 5px 16px 5px 44px;
+    }
+
+
+    footer .creator a
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        padding-right: 50px;
+    }
+}
