@@ -38,16 +38,18 @@ $(() => {
 
 
 	// Фиксирпованная картинка
-	image = $('.fixed_img'),
-		stopBlock = $('.about_info'),
-		startOffset = $('header').outerHeight() + $('.main_slider').outerHeight() * 0.5 - image.height() * 0.5,
-		imageStopOffset = stopBlock.offset().top + stopBlock.outerHeight() * 0.5 - image.height() * 0.5
+	if ($('.fixed_img').length) {
+		image = $('.fixed_img'),
+			stopBlock = $('.about_info'),
+			startOffset = $('header').outerHeight() + $('.main_slider').outerHeight() * 0.5 - image.height() * 0.5,
+			imageStopOffset = stopBlock.offset().top + stopBlock.outerHeight() * 0.5 - image.height() * 0.5
 
-	image.css('transform', 'translateY(' + startOffset + 'px)')
+		image.css('transform', 'translateY(' + startOffset + 'px)')
 
-	$(window).scrollTop() >= (imageStopOffset - startOffset)
-		? image.addClass('stop').css('transform', 'translateY(' + imageStopOffset + 'px)')
-		: image.removeClass('stop').css('transform', 'translateY(' + startOffset + 'px)')
+		$(window).scrollTop() >= (imageStopOffset - startOffset)
+			? image.addClass('stop').css('transform', 'translateY(' + imageStopOffset + 'px)')
+			: image.removeClass('stop').css('transform', 'translateY(' + startOffset + 'px)')
+	}
 })
 
 
@@ -104,9 +106,11 @@ $(window).on('resize', () => {
 
 $(window).on('scroll', () => {
 	// Фиксирпованная картинка
-	$(window).scrollTop() >= (imageStopOffset - startOffset)
-		? image.addClass('stop').css('transform', 'translateY(' + imageStopOffset + 'px)')
-		: image.removeClass('stop').css('transform', 'translateY(' + startOffset + 'px)')
+	if ($('.fixed_img').length) {
+		$(window).scrollTop() >= (imageStopOffset - startOffset)
+			? image.addClass('stop').css('transform', 'translateY(' + imageStopOffset + 'px)')
+			: image.removeClass('stop').css('transform', 'translateY(' + startOffset + 'px)')
+	}
 
 
 	// Фикс. шапка
