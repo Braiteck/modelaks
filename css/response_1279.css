@@ -382,16 +382,14 @@
 
     .about_info .title
     {
-        font-size: 22px;
-        line-height: 32px;
-
-        margin-bottom: 36px;
+        font-size: 20px;
+        line-height: 28px;
     }
 
     .about_info .title sup
     {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 19px;
     }
 
 

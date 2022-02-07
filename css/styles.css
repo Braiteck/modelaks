@@ -1562,11 +1562,11 @@ aside .articles .article .name a
 
 .about_info .title
 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 31px;
 
-    margin-bottom: 44px;
+    margin-bottom: 32px;
 }
 
 .about_info .title span
@@ -1576,8 +1576,8 @@ aside .articles .article .name a
 
 .about_info .title sup
 {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
 
     display: inline-block;
 
